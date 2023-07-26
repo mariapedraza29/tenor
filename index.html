@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
+
 <body>
+        <header>
+                <h1>Giphy</h1>
+                <input type="text" class="search_input" id="search" placeholder="                                                  Busca tus gifs...">
+                <button type="button" id="btn" class="btn">Buscar</button>
+        </header>
 
-<header>
-    <h1>TENOR</h1>
-    <form class="d-flex">
-        <input type="buscador" class="finder" id="finder" placeholder="Gifs a buscar...">
-        <button type="button" id="btn" class="btn">Buscar</button>   
-    </form>
-    
-</header>
-<div>
-    <div id="portfolio"></div>
+        <div class="center_hr">
+            <hr>
+        </div>
 
-</div>
+        <div class="trending">
+            <p id="trending">Tendencias</p>
+        </div>
 
+        <section>
+            <div id="portfolio"></div>
+        </section>
 
-
-
-
-
-    <script src="app.js"></script>
+        <script src="app.js"></script>
 </body>
+
 </html>
